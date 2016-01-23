@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app="AddressList">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body ng-controller="HomeController as hc">
+        <ul>
+            <li ng-repeat="address in hc.addresses" ng-bind="address.toString()"></li>    
+        </ul>
+        
+    <!-- SCRIPTS -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="//code.angularjs.org/1.4.5/angular-resource.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./backEndApi/backEndApiService.js"></script>
+    <script src="./googleApi/googleApiService.js"></script>
+    <script src="./controllers/homeController.js"></script>
+    </body>
+</html>
