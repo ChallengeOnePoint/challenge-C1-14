@@ -1,5 +1,4 @@
-var app = angular.module("AddressList", []);
+var app = angular.module("AddressList", ["ngResource"]);
 
-app.controller("HomeController", function(){
-    
-});
+
+
