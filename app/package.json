@@ -1,0 +1,19 @@
+{
+  "name": "fullstack-c1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChallengeOnePoint/challenge-C1-14.git"
+  },
+  "author": "Robin, Mike, Kevin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChallengeOnePoint/challenge-C1-14/issues"
+  },
+  "homepage": "https://github.com/ChallengeOnePoint/challenge-C1-14#readme"
+}
